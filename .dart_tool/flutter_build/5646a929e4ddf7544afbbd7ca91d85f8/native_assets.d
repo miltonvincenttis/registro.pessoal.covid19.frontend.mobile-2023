@@ -1,0 +1,1 @@
+ C:\\workspace\\dev\\projetos\\flutter\\conversao\\.dart_tool\\flutter_build\\5646a929e4ddf7544afbbd7ca91d85f8\\native_assets.yaml: 
