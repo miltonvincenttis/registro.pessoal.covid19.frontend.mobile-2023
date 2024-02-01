@@ -26,14 +26,16 @@ class EntrarScreen extends StatelessWidget {
                       fontSize: 24)),
               Container(
                 margin: EdgeInsets.all(32),
-                child: Column(
-                  children: <Widget>[
-                    _emailField(context),
-                    _password(context),
-                    _manterLogado(context),
-                    _entrar(context),
-                    _esqueceuSenha(context),
-                  ],
+                child: SingleChildScrollView(
+                  child: Column(
+                    children: <Widget>[
+                      _emailField(context),
+                      _password(context),
+                      _manterLogado(context),
+                      _entrar(context),
+                      _esqueceuSenha(context),
+                    ],
+                  ),
                 ),
               ),
             ],
